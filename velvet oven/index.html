@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velvet Oven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <!-- header part -->
+    <header>
+        <nav class="navbar flex between wrapper">
+            <div class="more"><img src="logo.png" alt="" width="100" height="100">
+            <a href="#"class="logo">V<span class="no">e</span>lv<span class="no">e</span>t <span class="ni">Oven</span></a></div>
+
+            <!-- desktop menu  -->
+            <ul class="navlist flex">
+                <li><a href="#"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+            </ul>
+
+            <div class="desktop-action flex gap2">
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span class="cart-value">0</span>
+                </a>
+                <a href="#" class="btn">Sign In <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <!-- mobile menu button -->
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <!-- mobile menu  -->
+            <ul class="mobile-menu">
+                <li><a href="#"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-bars"></i>Menu</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+                <li class="mobile-cart"><a href="#"><i class="fa-solid fa-briefcase"></i> Cart <span class="cart-value">0</span></a></li>
+                <li><a href="#" class="btn">Sign In <i class="fa-solid fa-arrow-right"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- main part -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="wrapper flex hero-container">
+                <div class="hero-content">
+                    <h1>Delicious Cakes <span>Baked with Love</span></h1>
+                    <p>Indulge in our handcrafted cakes made with the finest ingredients and a whole lot of love. Perfect for every occasion!</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                        <a href="#" class="btn btn-secondary">View Menu</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="cake1.png" alt="Delicious Cake" class="cake-img">
+                    <div class="discount-badge">
+                        <span>Upto 50% OFF</span>
+                        <span>First Order*</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Cakes Section -->
+        <section class="featured-cakes">
+            <div class="wrapper">
+                <h2 class="section-title">Our Featured Cakes</h2>
+                <p class="section-subtitle">Handcrafted with premium ingredients</p>
+                
+                <div class="cakes-grid">
+                    <!-- Cake items will be added dynamically with JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Offers -->
+        <section class="special-offers">
+            <div class="wrapper">
+                <h2 class="section-title">Special Offers</h2>
+                <p class="section-subtitle">Limited time deals you can't resist</p>
+                
+                <div class="offers-slider">
+                    <div class="offer-card">
+                        <div class="offer-img">
+                            <img src="cake5.png" alt="Special Offer Cake">
+                        </div>
+                        <div class="offer-details">
+                            <h3>Birthday Bundle</h3>
+                            <p class="offer-price"><span class="original-price">₹799</span>₹599</p>
+
+                            <p class="offer-desc">Cake + 12 cupcakes + free delivery</p>
+                            <button class="btn offer-btn">Grab Offer</button>
+                        </div>
+                    </div>
+                    
+                    <div class="offer-card">
+                        <div class="offer-img">
+                            <img src="cake7.png" alt="Special Offer Cake">
+                        </div>
+                        <div class="offer-details">
+                            <h3>Wedding Special</h3>
+                            <p class="offer-price"><span class="original-price">₹1599</span> ₹1199</p>
+                            <p class="offer-desc">3-tier cake + cake stand + free setup</p>
+                            <button class="btn offer-btn">Grab Offer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="wrapper">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Hear from our happy customers</p>
+                
+                <div class="testimonial-cards">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"The best cake I've ever had! The chocolate cake was so moist and rich. Will definitely order again!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="sn.png" alt="Customer">
+                            <div>
+                                <h4>Prasanta Sahoo</h4>
+                                <p>Regular Customer</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="testimonial-text">"Ordered a custom cake for my daughter's birthday and it was perfect! Exactly as I imagined. Great service!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="deba.png" alt="Customer">
+                            <div>
+                                <h4>Debashish Mallick</h4>
+                                <p>First-time Customer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="wrapper">
+                <div class="newsletter-container">
+                    <div class="newsletter-content">
+                        <h2>Subscribe to Our Newsletter</h2>
+                        <p>Get updates on new flavors, special offers, and baking tips!</p>
+                    </div>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- footer part -->
+    <footer>
+        <div class="wrapper">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Velvet Oven" width="80" height="80">
+                        <a href="#" class="logo">V<span class="no">e</span>lv<span class="no">e</span>t <span class="ni">Oven</span></a>
+                    </div>
+                    <p>Baking happiness since 2023. We craft each cake with love, using only the finest ingredients to create unforgettable flavors.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f">.</i></a>
+                        <a href="#"><i class="fab fa-instagram">.</i></a>
+                        <a href="#"><i class="fab fa-twitter">.</i></a>
+                        <a href="#"><i class="fab fa-pinterest-p">.</i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Our Cakes</h3>
+                    <ul>
+                        <li><a href="#">Birthday Cakes</a></li>
+                        <li><a href="#">Wedding Cakes</a></li>
+                        <li><a href="#">Cupcakes</a></li>
+                        <li><a href="#">Custom Cakes</a></li>
+                        <li><a href="#">Seasonal Specials</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Gohira Square,near GEC,Khordha</li>
+                        <li><i class="fas fa-phone"></i>+91 8260599436</li>
+                        <li><i class="fas fa-envelope"></i> info@velvetoven.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9AM - 9PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Velvet Oven. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+  // Wait for DOM to load
+  document.addEventListener('DOMContentLoaded', function() {
+    // Find the navbar element (adjust selector if needed)
+    const navbar = document.querySelector('.navbar');
+    
+    // Create search container
+    const searchContainer = document.createElement('div');
+    searchContainer.className = 'search-container';
+    searchContainer.style.display = 'flex';
+    searchContainer.style.alignItems = 'center';
+    searchContainer.style.marginLeft = 'auto';
+    searchContainer.style.marginRight = '20px';
+    
+    // Create search input
+    const searchInput = document.createElement('input');
+    searchInput.type = 'text';
+    searchInput.placeholder = 'Search cakes...';
+    searchInput.className = 'search-input';
+    searchInput.style.padding = '8px 12px';
+    searchInput.style.borderRadius = '20px';
+    searchInput.style.border = '1px solid #4A2C1A';
+    searchInput.style.outline = 'none';
+    searchInput.style.width = '220px';
+    searchInput.style.transition = 'width 0.3s ease';
+    searchInput.style.backgroundColor = '#fcf5e6';
+    
+    // Create search icon
+    const searchIcon = document.createElement('i');
+    searchIcon.className = 'fas fa-search';
+    searchIcon.style.marginLeft = '-30px';
+    searchIcon.style.cursor = 'pointer';
+    searchIcon.style.color = '#4A2C1A';
+    
+    // Add elements to container
+    searchContainer.appendChild(searchInput);
+    searchContainer.appendChild(searchIcon);
+    
+    // Insert into navbar (before desktop actions)
+    const desktopActions = document.querySelector('.desktop-action');
+    if (desktopActions) {
+      navbar.insertBefore(searchContainer, desktopActions);
+    } else {
+      // Fallback if desktop-actions not found
+      navbar.appendChild(searchContainer);
+    }
+    
+    // Search functionality
+    searchInput.addEventListener('input', function() {
+      const searchTerm = this.value.toLowerCase();
+      const cakeCards = document.querySelectorAll('.cake-card');
+      
+      cakeCards.forEach(card => {
+        const name = card.querySelector('h3')?.textContent.toLowerCase();
+        const desc = card.querySelector('p')?.textContent.toLowerCase();
+        
+        if (name?.includes(searchTerm) || desc?.includes(searchTerm)) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+    
+    // Focus input when icon clicked
+    searchIcon.addEventListener('click', function() {
+      searchInput.focus();
+    });
+    
+    // Expand search on focus
+    searchInput.addEventListener('focus', function() {
+      this.style.width = '240px';
+    });
+    
+    searchInput.addEventListener('blur', function() {
+      this.style.width = '230px';
+    });
+  });
+</script>
+
+
+</body>
+</html>
